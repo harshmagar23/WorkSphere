@@ -941,7 +941,24 @@ https://github.com/harshmagar23/WorkSphere
 
 ## License
 
-This project is created for academic learning, portfolio presentation, and full-stack Java web development practice.
+<div align="center">
+
+<img src="https://img.shields.io/badge/License-MIT-0F172A?style=for-the-badge&labelColor=38BDF8" />
+
+<br/>
+<br/>
+
+This project is licensed under the **MIT License**.
+
+You are free to use, modify, and reference this project for learning, academic, and portfolio purposes.
+
+<br/>
+
+**Copyright © 2026 Harsh Magar**
+
+</div>
+
+---
 
 ---
 
