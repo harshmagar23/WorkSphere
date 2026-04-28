@@ -1,1 +1,25 @@
-/target/
+# Maven
+target/
+*.war
+
+# Eclipse
+.settings/
+.classpath
+.project
+bin/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local config / secrets
+.env
+application-local.properties
+db.properties
+mail.properties
+
+# Accidental copied local folders
+Users/
