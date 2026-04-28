@@ -1,25 +1,25 @@
-# Maven
+# Maven build files
 target/
 *.war
 
-# Eclipse
+# Eclipse generated files
 .settings/
 .classpath
 .project
 bin/
 
-# OS files
-.DS_Store
-Thumbs.db
+# Accidental copied local folders
+Users/
 
 # Logs
 *.log
 
-# Local config / secrets
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local secrets/config
 .env
-application-local.properties
 db.properties
 mail.properties
-
-# Accidental copied local folders
-Users/
+application-local.properties
