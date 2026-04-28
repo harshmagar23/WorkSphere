@@ -42,25 +42,35 @@ It is inspired by platforms like **Fiverr**, **Upwork**, and **Freelancer**, whi
 - [Overview](#overview)
 - [Project Objective](#project-objective)
 - [Core Workflow](#core-workflow)
+- [Marketplace Flow Diagram](#marketplace-flow-diagram)
 - [Key Features](#key-features)
 - [User Roles](#user-roles)
 - [Technology Stack](#technology-stack)
 - [Architecture](#architecture)
 - [Project Modules](#project-modules)
+- [Important Pages](#important-pages)
 - [Project Structure](#project-structure)
 - [Database Setup](#database-setup)
 - [Local Setup Guide](#local-setup-guide)
 - [Maven Build](#maven-build)
 - [Testing Flow](#testing-flow)
+- [Demo Scenario](#demo-scenario)
+- [Current Project Status](#current-project-status)
+- [UI / UX Focus](#ui--ux-focus)
+- [GitHub Cleanup](#github-cleanup)
 - [Security Notes](#security-notes)
+- [Screenshots](#screenshots)
 - [Roadmap](#roadmap)
+- [Learning Outcomes](#learning-outcomes)
 - [Author](#author)
+- [Repository](#repository)
+- [License](#license)
 
 ---
 
 ## Overview
 
-WorkSphere is not a basic CRUD application. It is a workflow-driven marketplace system that includes multiple connected modules such as authentication, project posting, proposal management, bid acceptance, assigned project tracking, work submission, revision handling, reviews, notifications, and custom error pages.
+WorkSphere is not a basic CRUD application. It is a workflow-driven marketplace system that includes multiple connected modules such as authentication, project posting, proposal management, bid acceptance, assigned project tracking, work submission, revision handling, reviews, notifications, mock escrow/payment flow, and custom error pages.
 
 The project is developed using **Spring MVC** for request handling, **Hibernate** for database operations, **JSP/JSTL** for dynamic views, and **MySQL** for persistent storage.
 
@@ -943,22 +953,20 @@ https://github.com/harshmagar23/WorkSphere
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/License-MIT-0F172A?style=for-the-badge&labelColor=38BDF8" />
+<img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-0F172A?style=for-the-badge&labelColor=DC2626" />
 
 <br/>
 <br/>
 
-This project is licensed under the **MIT License**.
+**Copyright © 2026 Harsh Magar. All rights reserved.**
 
-You are free to use, modify, and reference this project for learning, academic, and portfolio purposes.
+This project is publicly available only for academic, portfolio, and project demonstration purposes.
 
-<br/>
+No permission is granted to copy, modify, distribute, publish, sublicense, sell, host, deploy, or reuse this project, in whole or in part, without prior written permission from the author.
 
-**Copyright © 2026 Harsh Magar**
+Viewing the source code does not grant any license or usage rights.
 
 </div>
-
----
 
 ---
 
