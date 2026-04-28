@@ -953,16 +953,20 @@ https://github.com/harshmagar23/WorkSphere
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-0F172A?style=for-the-badge&labelColor=DC2626" />
+<img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-020617?style=for-the-badge&labelColor=DC2626" />
+<img src="https://img.shields.io/badge/Usage-Demo%20Only-020617?style=for-the-badge&labelColor=1D4ED8" />
+<img src="https://img.shields.io/badge/Copying-Not%20Allowed-020617?style=for-the-badge&labelColor=F59E0B" />
 
 <br/>
 <br/>
 
-**Copyright © 2026 Harsh Magar. All rights reserved.**
+### Copyright © 2026 Harsh Magar
 
-This project is publicly available only for academic, portfolio, and project demonstration purposes.
+**All rights reserved.**
 
-No permission is granted to copy, modify, distribute, publish, sublicense, sell, host, deploy, or reuse this project, in whole or in part, without prior written permission from the author.
+This project is publicly available only for **academic**, **portfolio**, and **project demonstration** purposes.
+
+No permission is granted to copy, modify, distribute, publish, sublicense, sell, host, deploy, reuse, or create derivative works from this project, in whole or in part, without prior written permission from the author.
 
 Viewing the source code does not grant any license or usage rights.
 
