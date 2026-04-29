@@ -1,22 +1,32 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:020617,35:0F172A,70:1D4ED8,100:38BDF8&text=WorkSphere&fontColor=ffffff&fontSize=78&fontAlignY=38&desc=Freelance%20Marketplace%20Web%20Application&descAlignY=58&descSize=22&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=285&color=0:020617,35:0F172A,70:1D4ED8,100:38BDF8&text=WorkSphere&fontColor=FFFFFF&fontSize=78&fontAlignY=38&desc=Freelance%20Marketplace%20Web%20Application&descAlignY=58&descSize=22&animation=fadeIn" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=26&duration=2600&pause=900&color=38BDF8&center=true&vCenter=true&width=950&lines=Client+Projects.+Freelancer+Proposals.+Real+Marketplace+Workflow.;Built+with+Java%2C+Spring+MVC%2C+Hibernate%2C+JSP%2C+MySQL.;A+complete+full-stack+freelance+platform+for+project+collaboration." />
-
-<br/>
-
-<img src="https://img.shields.io/badge/Project-WorkSphere-0F172A?style=for-the-badge&labelColor=1D4ED8" />
-<img src="https://img.shields.io/badge/Domain-Freelance%20Marketplace-0F172A?style=for-the-badge&labelColor=0284C7" />
-<img src="https://img.shields.io/badge/Architecture-MVC-0F172A?style=for-the-badge&labelColor=0EA5E9" />
-<img src="https://img.shields.io/badge/Status-Functional-0F172A?style=for-the-badge&labelColor=16A34A" />
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=27&duration=2600&pause=850&color=38BDF8&center=true&vCenter=true&width=1000&lines=Client+Projects.+Freelancer+Proposals.+Real+Marketplace+Workflow.;A+Full+Stack+Java+Freelance+Marketplace+System.;Built+with+Spring+MVC%2C+Hibernate%2C+JSP%2C+MySQL%2C+Maven+and+Tomcat.;Project+Posting+%E2%86%92+Proposal+%E2%86%92+Assignment+%E2%86%92+Submission+%E2%86%92+Review." />
 
 <br/>
 <br/>
 
-<img src="https://skillicons.dev/icons?i=java,spring,hibernate,mysql,maven,html,css,js,bootstrap,eclipse" />
+<img src="https://img.shields.io/badge/Project-WorkSphere-020617?style=for-the-badge&labelColor=1D4ED8" />
+<img src="https://img.shields.io/badge/Domain-Freelance%20Marketplace-020617?style=for-the-badge&labelColor=0284C7" />
+<img src="https://img.shields.io/badge/Architecture-MVC-020617?style=for-the-badge&labelColor=0EA5E9" />
+<img src="https://img.shields.io/badge/Status-Functional-020617?style=for-the-badge&labelColor=16A34A" />
+
+<br/>
+<br/>
+
+<img src="https://skillicons.dev/icons?i=java,spring,hibernate,mysql,maven,html,css,js,bootstrap,eclipse&theme=dark" />
+
+<br/>
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2200&pause=650&color=93C5FD&center=true&vCenter=true&width=950&lines=Idea+%E2%86%92+Project+%E2%86%92+Proposal+%E2%86%92+Assignment+%E2%86%92+Submission;Revision+%E2%86%92+Completion+%E2%86%92+Review+%E2%86%92+Marketplace+Workflow" />
+
+<br/>
+
+<img width="90%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:020617,30:1D4ED8,65:38BDF8,100:BFDBFE" />
 
 <br/>
 <br/>
@@ -31,15 +41,39 @@
 
 **WorkSphere** is a full-stack freelance marketplace web application designed to connect **clients** and **freelancers** through a structured project-based workflow.
 
-The application follows a real freelance platform flow where clients can post projects, freelancers can submit proposals, clients can accept or reject bids, freelancers can submit work, clients can request revisions, complete projects, and give reviews.
+The platform follows a real freelance marketplace flow where clients can post projects, freelancers can submit proposals, clients can accept or reject bids, freelancers can submit work, clients can request revisions, complete projects, and give final reviews.
 
 It is inspired by platforms like **Fiverr**, **Upwork**, and **Freelancer**, while being implemented using a traditional Java web development stack.
 
 ---
 
+## Product Overview
+
+WorkSphere is not a basic CRUD application. It is a workflow-driven marketplace system that connects multiple real-world freelance platform operations into one complete application.
+
+<div align="center">
+
+| Category | Details |
+|---|---|
+| Project Name | WorkSphere |
+| Project Type | Full Stack Java Web Application |
+| Domain | Freelance Marketplace |
+| Primary Users | Client and Freelancer |
+| Backend Stack | Java, Spring MVC, Hibernate |
+| Frontend Stack | JSP, JSTL, HTML5, CSS3, Bootstrap, JavaScript |
+| Database | MySQL |
+| Build Tool | Maven |
+| Server | Apache Tomcat 9 |
+| Architecture | MVC Architecture |
+| Deployment Format | WAR |
+
+</div>
+
+---
+
 ## Table of Contents
 
-- [Overview](#overview)
+- [Product Overview](#product-overview)
 - [Project Objective](#project-objective)
 - [Core Workflow](#core-workflow)
 - [Marketplace Flow Diagram](#marketplace-flow-diagram)
@@ -68,17 +102,9 @@ It is inspired by platforms like **Fiverr**, **Upwork**, and **Freelancer**, whi
 
 ---
 
-## Overview
-
-WorkSphere is not a basic CRUD application. It is a workflow-driven marketplace system that includes multiple connected modules such as authentication, project posting, proposal management, bid acceptance, assigned project tracking, work submission, revision handling, reviews, notifications, mock escrow/payment flow, and custom error pages.
-
-The project is developed using **Spring MVC** for request handling, **Hibernate** for database operations, **JSP/JSTL** for dynamic views, and **MySQL** for persistent storage.
-
----
-
 ## Project Objective
 
-The main objective of WorkSphere is to build a practical freelance marketplace web application where two different user roles can interact through a complete project lifecycle.
+The objective of WorkSphere is to build a practical freelance marketplace web application where two different user roles can interact through a complete project lifecycle.
 
 The system demonstrates:
 
@@ -126,6 +152,12 @@ Client completes the project
         ↓
 Client gives final review
 ```
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=1800&pause=500&color=38BDF8&center=true&vCenter=true&width=950&lines=%5BCLIENT%5D+posts+project;%5BFREELANCER%5D+submits+proposal;%5BCLIENT%5D+accepts+or+rejects+bid;%5BFREELANCER%5D+submits+work;%5BCLIENT%5D+reviews+and+completes+project" />
+
+</div>
 
 ---
 
@@ -276,6 +308,8 @@ Tracking project status
 
 ## Technology Stack
 
+<div align="center">
+
 | Layer | Technology |
 |---|---|
 | Programming Language | Java |
@@ -289,6 +323,25 @@ Tracking project status
 | IDE | Eclipse IDE |
 | Packaging | WAR |
 | Architecture | MVC |
+
+</div>
+
+<div align="center">
+
+<br/>
+
+<img src="https://img.shields.io/badge/Java-Backend-020617?style=for-the-badge&labelColor=1D4ED8" />
+<img src="https://img.shields.io/badge/Spring%20MVC-Controller%20Layer-020617?style=for-the-badge&labelColor=2563EB" />
+<img src="https://img.shields.io/badge/Hibernate-ORM%20Layer-020617?style=for-the-badge&labelColor=0284C7" />
+<img src="https://img.shields.io/badge/JSP-View%20Layer-020617?style=for-the-badge&labelColor=0EA5E9" />
+<img src="https://img.shields.io/badge/MySQL-Database-020617?style=for-the-badge&labelColor=38BDF8" />
+
+<br/>
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=18&duration=2300&pause=700&color=93C5FD&center=true&vCenter=true&width=900&lines=Controller+handles+requests.;Service+layer+handles+business+logic.;DAO+layer+handles+database+operations.;Hibernate+maps+entities+to+MySQL.;JSP+renders+dynamic+views." />
+
+</div>
 
 ---
 
@@ -850,6 +903,23 @@ Rotate exposed credentials immediately
 
 ---
 
+<div align="center">
+
+## Project Signal
+
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=20&duration=2500&pause=850&color=38BDF8&center=true&vCenter=true&width=950&lines=Complete+Java+full-stack+marketplace+workflow.;Client+workspace+and+freelancer+workspace+connected.;Projects%2C+proposals%2C+submissions%2C+revisions%2C+and+reviews+in+one+system." />
+
+<br/>
+<br/>
+
+<img src="https://img.shields.io/badge/Code-Clean%20Maven%20Structure-020617?style=for-the-badge&labelColor=1D4ED8" />
+<img src="https://img.shields.io/badge/UI-Professional%20JSP%20Theme-020617?style=for-the-badge&labelColor=0284C7" />
+<img src="https://img.shields.io/badge/Flow-End%20to%20End%20Marketplace-020617?style=for-the-badge&labelColor=38BDF8" />
+
+</div>
+
+---
+
 ## Screenshots
 
 Screenshots can be added later in a `screenshots/` folder.
@@ -955,7 +1025,7 @@ https://github.com/harshmagar23/WorkSphere
 
 <img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-020617?style=for-the-badge&labelColor=DC2626" />
 <img src="https://img.shields.io/badge/Usage-Demo%20Only-020617?style=for-the-badge&labelColor=1D4ED8" />
-<img src="https://img.shields.io/badge/Copying-Not%20Allowed-020617?style=for-the-badge&labelColor=F59E0B" />
+<img src="https://img.shields.io/badge/Copying-Not%20Allowed-020617?style=for-the-badge&labelColor=0EA5E9" />
 
 <br/>
 <br/>
@@ -976,16 +1046,16 @@ Viewing the source code does not grant any license or usage rights.
 
 <div align="center">
 
-<img width="92%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:020617,40:1D4ED8,75:38BDF8,100:FFFFFF" />
+<img width="92%" src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:020617,35:1D4ED8,70:38BDF8,100:BFDBFE" />
 
 <br/>
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=22&duration=2600&pause=900&color=38BDF8&center=true&vCenter=true&width=950&lines=WorkSphere+is+not+just+a+CRUD+project.;It+is+a+complete+freelance+marketplace+workflow.;Built+with+Java%2C+Spring+MVC%2C+Hibernate%2C+JSP%2C+and+MySQL.;Designed+for+learning%2C+portfolio%2C+and+real+project+presentation." />
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=22&duration=2600&pause=900&color=38BDF8&center=true&vCenter=true&width=950&lines=WorkSphere+is+not+just+a+CRUD+project.;It+is+a+complete+freelance+marketplace+workflow.;Built+with+Java%2C+Spring+MVC%2C+Hibernate%2C+JSP%2C+and+MySQL.;Designed+for+learning%2C+portfolio%2C+and+real+project+presentation." />
 
 <br/>
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=170&color=0:38BDF8,35:1D4ED8,70:0F172A,100:020617&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=170&color=0:38BDF8,30:1D4ED8,65:0F172A,100:020617&section=footer" />
 
 </div>
