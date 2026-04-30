@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: WorkSphere Repository
+    url: https://github.com/harshmagar23/WorkSphere
+    about: View the main WorkSphere project repository.
+  - name: Project Author
+    url: https://github.com/harshmagar23
+    about: Contact or view the project author's GitHub profile.
