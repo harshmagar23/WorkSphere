@@ -17,6 +17,13 @@
 <br/>
 <br/>
 
+<a href="https://github.com/harshmagar23/WorkSphere/actions/workflows/maven-build.yml">
+  <img src="https://github.com/harshmagar23/WorkSphere/actions/workflows/maven-build.yml/badge.svg" alt="Maven Build" />
+</a>
+
+<br/>
+<br/>
+
 <img src="https://skillicons.dev/icons?i=java,spring,hibernate,mysql,maven,html,css,js,bootstrap,eclipse&theme=dark" />
 
 <br/>
