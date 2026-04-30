@@ -71,12 +71,38 @@ WorkSphere is not a basic CRUD application. It is a workflow-driven marketplace 
 
 ---
 
+## Project Highlights
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Workflow-End%20to%20End-020617?style=for-the-badge&labelColor=1D4ED8" />
+<img src="https://img.shields.io/badge/Users-Client%20%2B%20Freelancer-020617?style=for-the-badge&labelColor=0284C7" />
+<img src="https://img.shields.io/badge/Database-MySQL-020617?style=for-the-badge&labelColor=0EA5E9" />
+<img src="https://img.shields.io/badge/UI-Professional%20JSP-020617?style=for-the-badge&labelColor=38BDF8" />
+
+</div>
+
+<br/>
+
+| Highlight | Description |
+|---|---|
+| Complete marketplace lifecycle | Covers project posting, proposals, bid decisions, assignment, submission, revision, completion, and review |
+| Role-based experience | Separate client and freelancer workflows with different dashboards and actions |
+| Real database operations | Uses Hibernate ORM with MySQL for persistent project, proposal, user, and workflow data |
+| Professional web stack | Built using Java, Spring MVC, JSP, JSTL, Maven, and Apache Tomcat |
+| Portfolio-ready structure | Organized as a full-stack academic and professional project presentation |
+| Production-style improvements | Includes custom error pages, notification pages, project status flow, and payment center mock flow |
+
+---
+
 ## Table of Contents
 
 - [Product Overview](#product-overview)
+- [Project Highlights](#project-highlights)
 - [Project Objective](#project-objective)
 - [Core Workflow](#core-workflow)
 - [Marketplace Flow Diagram](#marketplace-flow-diagram)
+- [Marketplace Capability Matrix](#marketplace-capability-matrix)
 - [Key Features](#key-features)
 - [User Roles](#user-roles)
 - [Technology Stack](#technology-stack)
@@ -90,12 +116,16 @@ WorkSphere is not a basic CRUD application. It is a workflow-driven marketplace 
 - [Testing Flow](#testing-flow)
 - [Demo Scenario](#demo-scenario)
 - [Current Project Status](#current-project-status)
+- [Repository Quality](#repository-quality)
+- [Code Review Focus](#code-review-focus)
 - [UI / UX Focus](#ui--ux-focus)
 - [GitHub Cleanup](#github-cleanup)
 - [Security Notes](#security-notes)
 - [Screenshots](#screenshots)
 - [Roadmap](#roadmap)
+- [Known Limitations](#known-limitations)
 - [Learning Outcomes](#learning-outcomes)
+- [Interview Talking Points](#interview-talking-points)
 - [Author](#author)
 - [Repository](#repository)
 - [License](#license)
@@ -187,6 +217,28 @@ flowchart TD
     L --> O[Client Gives Review]
     O --> P[Workflow Closed]
 ```
+
+---
+
+## Marketplace Capability Matrix
+
+| Capability | Client | Freelancer | System |
+|---|---:|---:|---:|
+| Register and login | Yes | Yes | Session handling |
+| Dashboard access | Yes | Yes | Role-based routing |
+| Project posting | Yes | No | Project persistence |
+| Explore projects | No | Yes | Project listing |
+| Proposal submission | No | Yes | Bid storage |
+| Proposal review | Yes | No | Status update |
+| Accept / reject bid | Yes | No | Assignment creation |
+| Assigned project tracking | Yes | Yes | Workflow state |
+| Work submission | No | Yes | File/message handling |
+| Revision request | Yes | No | Status transition |
+| Re-submission | No | Yes | Revision workflow |
+| Project completion | Yes | No | Completion status |
+| Review system | Yes | Freelancer receives | Feedback storage |
+| Notifications | Yes | Yes | Workflow updates |
+| Error pages | Yes | Yes | Custom error handling |
 
 ---
 
@@ -826,6 +878,60 @@ Client:
 
 ---
 
+## Repository Quality
+
+This repository is structured to represent a clean Java web application project.
+
+| Area | Quality Focus |
+|---|---|
+| Project structure | MVC-based folder separation |
+| Code organization | Controller, service, DAO, and model layers |
+| Database interaction | Hibernate ORM with MySQL |
+| Frontend rendering | JSP and JSTL-based dynamic pages |
+| Build process | Maven dependency and WAR management |
+| Deployment | Apache Tomcat compatible |
+| Documentation | Full README with setup, workflow, and testing flow |
+| GitHub cleanup | Unwanted generated files ignored using `.gitignore` |
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2300&pause=700&color=93C5FD&center=true&vCenter=true&width=950&lines=Clean+repository+structure.;Documented+setup+instructions.;Complete+manual+testing+flow.;Professional+portfolio+presentation." />
+
+</div>
+
+---
+
+## Code Review Focus
+
+When reviewing this project, the main focus areas are:
+
+```text
+Whether the MVC flow is clear
+Whether controllers route users correctly
+Whether service and DAO layers are separated
+Whether Hibernate mappings are working correctly
+Whether client and freelancer workflows are complete
+Whether project status transitions are handled properly
+Whether proposal acceptance creates a correct assignment
+Whether submission and revision flow works correctly
+Whether JSP pages render correct dynamic data
+Whether custom error pages improve user experience
+Whether the repository is clean and understandable
+```
+
+This makes the project suitable for:
+
+```text
+Academic submission
+Portfolio showcase
+Resume project section
+GitHub profile presentation
+Java full-stack project demonstration
+Interview discussion
+```
+
+---
+
 ## UI / UX Focus
 
 WorkSphere is designed to feel like a professional freelance marketplace rather than a plain academic web application.
@@ -979,6 +1085,23 @@ Admin user management
 
 ---
 
+## Known Limitations
+
+Current limitations and improvement areas:
+
+```text
+Payment flow is currently a mock escrow/payment center
+Real-time chat is not implemented yet
+Admin dashboard can be added as a future module
+Email notifications can be expanded for full workflow updates
+Search and filtering can be made more advanced
+Cloud deployment configuration can be improved
+Security can be strengthened before production use
+REST APIs can be added for mobile or frontend framework support
+```
+
+---
+
 ## Learning Outcomes
 
 This project demonstrates:
@@ -997,6 +1120,25 @@ File upload handling
 Custom error page configuration
 Git and GitHub repository management
 Full-stack debugging process
+```
+
+---
+
+## Interview Talking Points
+
+This project can be explained in interviews using the following points:
+
+```text
+I built a freelance marketplace system with two major roles: client and freelancer.
+The client can post projects and manage proposals.
+The freelancer can explore projects and submit proposals.
+When a proposal is accepted, the project becomes assigned to that freelancer.
+The freelancer can submit work, and the client can either approve it or request revision.
+The complete workflow ends with project completion and review.
+The backend is built using Spring MVC with Hibernate ORM and MySQL.
+The frontend is built using JSP, JSTL, HTML, CSS, Bootstrap, and JavaScript.
+The project follows MVC architecture and uses Maven for dependency management.
+I also added custom error pages, notification pages, and a mock payment flow.
 ```
 
 ---
